@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="icon" href="./img/favicon.ico"/>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Gothic&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,8 +18,9 @@
    body {
   margin: 0 auto;
   padding: 0;
-  background-image:url(./img/patterns/padrao\ logo-03.jpg);
+  
 }
+
 
 #header{
   background-color: #7C3839;
@@ -46,10 +47,13 @@
               <a class="nav-link" href="https://www.fresha.com/book-now/samanta-costa-hairstylist-rub0djdj/all-offer?id=1054676&pId=999792" target="_blank">Agendamento</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
+              <a class="nav-link" href="./blog.html" target="_blank">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#entre-em-contato">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabalheconosco">Trabalhe Conosco</a>
             </li>
           </ul>
           <div class=" d-flex align-items-center justify-content-center p-3">
@@ -67,8 +71,8 @@
  <Main>
      <div class="d-flex align-items-center justify-content-center p-5" id="header"> 
        <div class="flex-grow-3 ms-3">
-        <h1 class="fs-3" style="font-family: 'Nanum Gothic'; text-align: center;color:aliceblue;">Bem Vindo</h1>
-        <h1 class="fs-1" style="font-family: 'Nanum Gothic'; font-style: italic; color:#FFCE00;text-align: center;">Samanta Costa Hairstylist</h1>
+        <h1 class="fs-3" style=" font-family: 'Nanum Gothic'; text-align: center;color:aliceblue;">Bem Vindo</h1>
+        <h1 class="" style=" font-size: 4rem ;font-family: 'Nanum Gothic'; font-style: italic; color:#FFCE00;text-align: center;">Samanta Costa Hairstylist</h1>
         <h5 class="fs-2" style="font-family: 'Nanum Gothic';color:aliceblue;text-align: center;">Seu Visual em boas mãos</h5>
       </div>
     </div>
@@ -76,277 +80,426 @@
   <img src="./img/" alt="">
 </div>
 
-<div class="d-flex justify-content-center"> 
-  <div style="background-image: url(./img/patterns/padrao\ logo-01.jpg); width: 80rem; height: 500px ;; "  id="servicos">
-    <h1 style="text-align: center; color: #FFCE00; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Nossos Serviços</h1>
-    <div class="d-flex justify-content-between m-5 p-1 row row-cols-md-5  " >
-      <div class="accordion accordion-flush " id="accordionFlushExample1">
-    <div class="accordion-item border border-1 rounded-4 ">
-      <h2 class="accordion-header border border-1 rounded-4 ">
-        <button class="accordion-button collapsed border border-1 rounded-4  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1"> Cortes</button>
-      </h2>
-      <div id="flush-collapseOne1" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample1">
-        <div class="card d-flex align-items-center justify-content-center p-3">
+<div class="card align-items-center justify-content-center overflow-x-hidden p-1  border border-0" id="servicos" >
+  <div class=" card d-flex justify-content-cente align-items-center rounded-4 shadow-lg p-3 mb-5 bg-body-tertiary" style="background-image: url(./img/patterns/padrao\ logo-04.jpg);" >
+    <div class="card-body">
+      <div class="text-center p-2 fst-italic fw-bold text-decoration-underline "><h1>Nossos Serviços</h1>
+        </div>
+        <div>
+      <!-- Botao Cortes  -->
+      <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3"  data-bs-toggle="modal" data-bs-target="#cortes">
+        Cortes
+      </button>
 
-          <div id="carouselExample" class="carousel slide" >
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="3000" >
-                <img src="./img/cortedecabelo/IMG-20230808-WA0005.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/cortedecabelo/IMG-20230808-WA0006.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item"data-bs-interval="3000">
-                <img src="./img/cortedecabelo/IMG-20230808-WA0007.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item"data-bs-interval="3000">
-                <img src="./img/cortedecabelo/IMG-20230808-WA0008.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item"data-bs-interval="3000">
-                <img src="./img/cortedecabelo/IMG-20230808-WA0009.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
+      <div class="modal fade" id="cortes" tabindex="-1" aria-labelledby="examplecortes" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="examplecortes">Cortes</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            
-            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <div class="card-body">
-          </div>
-        </div>    
-      </div>
-    </div>
-  </div>
-  <div class="accordion accordion-flush " id="accordionFlushhidratacao">
-    <div class="accordion-item border border-1 rounded-4">
-      <h2 class="accordion-header border border-1 rounded-4">
-        <button class="accordion-button collapsed   border border-1 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-hidratacao" aria-expanded="false" aria-controls="flush-hidratacao"> Hidratação</button>
-      </h2>
-      <div id="flush-hidratacao" class="accordion-collapse collapse " data-bs-parent="#accordionFlushhidratacao">
-        <div class="card d-flex align-items-center justify-content-center p-3">
+            <div class="modal-body">
+              <div class="card d-flex align-items-center justify-content-center p-3">
 
-          <div id="hidratacao" class="carousel slide"  >
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./img/hidratacao/videoCabelo1.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/hidratacao/videoCabelo10.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/hidratacao/videoCabelo2.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/hidratacao/videoCabelo3.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/hidratacao/videoCabelo4.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
+                <div id="carouselExample" class="carousel slide" >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000" >
+                      <img src="./img/cortedecabelo/IMG-20230808-WA0005.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/cortedecabelo/IMG-20230808-WA0006.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item"data-bs-interval="3000">
+                      <img src="./img/cortedecabelo/IMG-20230808-WA0007.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item"data-bs-interval="3000">
+                      <img src="./img/cortedecabelo/IMG-20230808-WA0008.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item"data-bs-interval="3000">
+                      <img src="./img/cortedecabelo/IMG-20230808-WA0009.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                  </div>
+                  
+                  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body">
+                </div>
+              </div>    
             </div>
-            
-            <button class="carousel-control-prev " type="button" data-bs-target="#hidratacao" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#hidratacao" data-bs-slide="next">
-              <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <div class="card-body">
-          </div>
-        </div>    
-      </div>
-    </div>
-  </div>
-  <div class="accordion accordion-flush " id="accordionFlushpenteado">
-    <div class="accordion-item border border-1 rounded-4">
-      <h2 class="accordion-header border border-1 rounded-4">
-        <button class="accordion-button collapsed  border border-1 rounded-4 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-penteado" aria-expanded="false" aria-controls="flush-penteado"> Penteados</button>
-      </h2>
-      <div id="flush-penteado" class="accordion-collapse collapse " data-bs-parent="#accordionFlushpenteado">
-        <div class="card d-flex align-items-center justify-content-center p-3">
-
-          <div id="penteado" class="carousel slide" >
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./img/penteados/IMG-20230808-WA0019.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/penteados/IMG-20230808-WA0020.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/penteados/IMG-20230808-WA0024.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/penteados/IMG-20230808-WA0025.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/penteados/WhatsApp Image 2023-08-07 at 22.55.00.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-            </div>
-            
-            <button class="carousel-control-prev " type="button" data-bs-target="#penteado" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#penteado" data-bs-slide="next">
-              <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <div class="card-body">
-          </div>
-        </div>    
-      </div>
-    </div>
-  </div>
-  <div class="accordion accordion-flush " id="accordionFlushtintura">
-    <div class="accordion-item border border-1 rounded-4">
-      <h2 class="accordion-header border border-1 rounded-4">
-        <button class="accordion-button collapsed border border-1 rounded-4  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-tintura" aria-expanded="false" aria-controls="flush-tintura"> Tintura</button>
-      </h2>
-      <div id="flush-tintura" class="accordion-collapse collapse " data-bs-parent="#accordionFlushtintura">
-        <div class="card d-flex align-items-center justify-content-center p-3">
-
-          <div id="tintura" class="carousel slide"  >
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./img/pinturas/IMG-20230808-WA0015.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/pinturas/IMG-20230808-WA0016.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/pinturas/IMG-20230808-WA0017.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/pinturas/videoCabelo6.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/pinturas/videoCabelo8.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-            </div>
-            
-            <button class="carousel-control-prev " type="button" data-bs-target="#tintura" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#tintura" data-bs-slide="next">
-              <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <div class="card-body">
-          </div>
-        </div>    
-      </div>
-    </div>
-  </div>
-  <div class="accordion accordion-flush " id="accordionFlushExample">
-    <div class="accordion-item border border-1 rounded-4">
-      <h2 class="accordion-header border border-1 rounded-4">
-        <button class="accordion-button collapsed border border-1 rounded-4  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-morena" aria-expanded="false" aria-controls="flush-morena"> Morena Iluminada</button>
-      </h2>
-      <div id="flush-morena" class="accordion-collapse collapse " data-bs-parent="#accordionFlushmorena">
-        <div class="card d-flex align-items-center justify-content-center p-3">
-
-          <div id="morena" class="carousel slide"  >
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./img/pinturas/morena.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/pinturas/morena2.jpg" class="d-block" style="width: 200px; height:200px" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/pinturas/morena3.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/pinturas/morena4.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/pinturas/morena5.jpg" class="d-block" style="width: 200px; height:200px ;" alt="...">
-              </div>
-            </div>
-            
-            <button class="carousel-control-prev " type="button" data-bs-target="#morena" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#morena" data-bs-slide="next">
-              <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <div class="card-body">
-          </div>
-        </div>    
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-    
-    
-    
-  <div class="card text-bg-dark align-items-center overflow-x-hidden mt-5 mb-5" id="nossa-historia">
-      <img src="./img/Sam.jpg" style="width: 1000px;" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h1 class="card-title text-center">Nossa História</h1>
-        <p class="card-text text-center fs-5">Era uma vez uma jovem chamada Samanta, que desde muito pequena demonstrava 
-          um fascínio especial por cabelos. Desde seus primeiros anos de vida, ela ficava 
-          fascinada ao observar as diferentes cores, texturas e estilos de cabelo das 
-          pessoas ao seu redor. <br>
-          À medida que crescia, esse interesse apenas se intensificava. 
-          Ela gastava seu tempo praticando em amigos e 
-          familiares dispostos a serem seus modelos. Cada penteado que ela 
-          criava era uma forma de expressão artística, uma maneira de realçar 
-          a beleza única de cada pessoa.<br><br>
           
-          Quando chegou o momento de escolher uma carreira, não foi difícil 
-          para Samanta decidir. Ela decidiu seguir sua paixão e se tornar uma cabeleireira 
-          profissional. Ela começou a trabalhar em salão de beleza como ajudante e começou 
-          a aprender as técnicas fundamentais de corte, coloração e tratamento capilar. 
-          Durante sua jornada no trabalho, ela se destacou não apenas por sua habilidade técnica, 
-          mas também por sua criatividade e sensibilidade para entender as necessidades 
-          e desejos dos clientes.<br><br>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            
+            </div>
+          </div>
+        </div>
+      
+
+      <!-- Botao Hidratacao -->
+      <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#hidrata">
+        Hidratação
+      </button>
+
+      <div class="modal fade" id="hidrata" tabindex="-1" aria-labelledby="examplehidrata" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="examplehidrata">Hidratação</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="card d-flex align-items-center justify-content-center p-3">
+
+                <div id="hidratacao" class="carousel slide"  >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="./img/hidratacao/videoCabelo1.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/hidratacao/videoCabelo10.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/hidratacao/videoCabelo2.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/hidratacao/videoCabelo3.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/hidratacao/videoCabelo4.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                  </div>
+                  
+                  <button class="carousel-control-prev " type="button" data-bs-target="#hidratacao" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#hidratacao" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div class="card-body">
+                </div>
+              </div>    
+            </div>
           
-          Conforme Samanta ganhava experiência, ela percebeu 
-          que queria ir além do simples trabalho de ajudante, e foi nesta fase que decidiu empreender nesta area.
-          E foi assim que nasceu <strong>Casa Samanta Costa</strong>. Conforme ela construía sua clientela,
-          percebeu que queria ir além do simples corte e 
-          coloração. Ela queria compreender profundamente como os cabelos se conectam com a 
-          identidade e autoestima das pessoas. Foi assim que ela decidiu ingressar em uma faculdade 
-          de visagismo, onde estudou e ainda estuda a relação entre cabelo, rosto e personalidade. Ela aprendeu 
-          a usar o cabelo como uma ferramenta para realçar traços faciais, transmitir emoções e 
-          até mesmo refletir a personalidade única de cada cliente.<br><br>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            
+            </div>
+          </div>
+        </div>
+      
+
+      <!-- Botao Penteados -->
+      <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#pente">
+        Penteados
+      </button>
+
+      <div class="modal fade" id="pente" tabindex="-1" aria-labelledby="examplepenteado" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="examplepenteado">Penteados</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="card d-flex align-items-center justify-content-center p-3">
+
+                <div id="penteado" class="carousel slide" >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="./img/penteados/IMG-20230808-WA0019.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/penteados/IMG-20230808-WA0020.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/penteados/IMG-20230808-WA0024.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/penteados/IMG-20230808-WA0025.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/penteados/WhatsApp Image 2023-08-07 at 22.55.00.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                  </div>
+                  
+                  <button class="carousel-control-prev " type="button" data-bs-target="#penteado" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#penteado" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div class="card-body">
+                </div>
+              </div>    
+            </div>
           
-          Samanta se tornou uma cabeleireira e visagista muito requisitada. Seu estúdio 
-          é frequentado por pessoas que buscam muito mais do que um simples corte 
-          de cabelo. Ela escuta atentamente seus clientes, compreende suas histórias 
-          e desejos, e então cria transformações capilares que não apenas refletem sua 
-          beleza exterior, mas também sua individualidade interior.
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            
+            </div>
+          </div>
+        </div>
+      
+
+      <!-- Botao Tintura -->
+      <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#tinta">
+        Tintura
+      </button>
+
+      <div class="modal fade" id="tinta" tabindex="-1" aria-labelledby="exampletinta" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampletinta">Tintura</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="card d-flex align-items-center justify-content-center p-3">
+
+                <div id="tintura" class="carousel slide"  >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="./img/pinturas/IMG-20230808-WA0015.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/pinturas/IMG-20230808-WA0016.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/pinturas/IMG-20230808-WA0017.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/pinturas/videoCabelo6.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/pinturas/videoCabelo8.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                  </div>
+                  
+                  <button class="carousel-control-prev " type="button" data-bs-target="#tintura" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#tintura" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div class="card-body">
+                </div>
+              </div>    
+            </div>
           
-          Com o tempo, Samanta esta se tornando uma referência na indústria da beleza e do visagismo. 
-          Ela não apenas transforma cabelos, mas também ajuda as pessoas a se sentirem mais 
-          confiantes e autênticas em sua própria pele. Sua jornada desde a infância até se 
-          tornar uma renomada cabeleireira e visagista demonstra o poder de seguir paixões 
-          e transformá-las em uma carreira que não apenas traz sucesso, mas também realiza um 
-          propósito mais profundo.</h3> 
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            
+            </div>
+          </div>
+        </div>
+      
+
+      <!-- Botao Morena Iluminada -->
+        <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#morenas">
+          Morena Iluminada
+        </button>
+
+        <div class="modal fade" id="morenas" tabindex="-1" aria-labelledby="examplemorena" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="examplemorena">Morena Iluminada</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="card d-flex align-items-center justify-content-center p-3">
+
+                <div id="morena" class="carousel slide"  >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="./img/pinturas/morena.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/pinturas/morena2.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/pinturas/morena3.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/pinturas/morena4.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./img/pinturas/morena5.jpg" class="d-block" style="width: 250px; height:250px" alt="...">
+                    </div>
+                  </div>
+                  
+                  <button class="carousel-control-prev " type="button" data-bs-target="#morena" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#morena" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div class="card-body">
+                </div>
+              </div>    
+            </div>
+          
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
+  </div>  
+
+    <!-- NOssa Historia -->
+  <div class="card align-items-center justify-content-center overflow-x-hidden bg-body text-body border border-0"> 
+  <div class="card text-bg-dark lh-1 align-items-center  overflow-x-hidden mt-5 mb-5 " id="nossa-historia">
+      <img src="./img/Sam.jpg"  class="card-img" style="min-width: 320px" alt="...">
+      <div class="card-img-overlay text-start p-1 d-flex row align-items-center justify-content-cente ">
+       <h1 class="card-title text-center  " >Nossa História</h1>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          
+          <div class="carousel-inner  ">
+            <div class="carousel-item active">
+              <p class="card-text text-center">
+                Era uma vez uma jovem chamada Samanta, que desde muito pequena demonstrava 
+                um fascínio especial por cabelos. Desde seus primeiros anos de vida, ela ficava 
+                fascinada ao observar as diferentes cores, texturas e estilos de cabelo das 
+                pessoas ao seu redor. <br>À medida que crescia, esse interesse apenas se intensificava. 
+                Ela gastava seu tempo praticando em amigos e familiares dispostos a serem seus modelos.
+                <p>
+                
+                </div>
+                <div class="carousel-item">
+                  <p class="card-text text-center">
+                Cada penteado que ela 
+                criava era uma forma de expressão artística, uma maneira de realçar a beleza única de cada pessoa.<br>
+                Quando chegou o momento de escolher uma carreira, não foi difícil 
+                para Samanta decidir. Ela decidiu seguir sua paixão e se tornar uma cabeleireira 
+                profissional. 
+                Começou a trabalhar em salão de beleza como ajudante e começou 
+                a aprender as técnicas fundamentais de corte, coloração e tratamento capilar.
+
+                <p>
+                
+                </div>
+                <div class="carousel-item">
+                  <p class="card-text text-center">
+                
+                Durante sua jornada no trabalho, ela se destacou não apenas por sua habilidade técnica, 
+                mas também por sua criatividade e sensibilidade para entender as necessidades 
+                e desejos dos clientes. <br>
+                Conforme Samanta ganhava experiência, ela percebeu que queria ir além do simples trabalho 
+                de ajudante, e foi nesta fase que decidiu empreender nesta area.
+                E foi assim que nasceu <strong>Casa Samanta Costa</strong>.
+
+                <p>
+                
+                </div>
+                <div class="carousel-item">
+                  <p class="card-text text-center">
+                Conforme ela construía sua clientela,
+                percebeu que queria ir além do simples corte e 
+                coloração. <br>
+                Ela queria compreender profundamente como os cabelos se conectam com a 
+                identidade e autoestima das pessoas. Foi assim que ela decidiu ingressar em uma faculdade 
+                de visagismo, onde estudou e ainda estuda a relação entre cabelo, rosto e personalidade. 
+                  </p> <br>
+                
+                </div>
+                <div class="carousel-item">
+                  <p class="card-text text-center">
+                Ela aprendeu a usar o cabelo como uma ferramenta para realçar traços faciais, transmitir emoções e 
+                até mesmo refletir a personalidade única de cada cliente.
+                Samanta se tornou uma cabeleireira e visagista muito requisitada. Seu estúdio 
+                é frequentado por pessoas que buscam muito mais do que um simples corte 
+                de cabelo. 
+                  </p><br>
+            </div>
+            <div class="carousel-item">
+              <p class="card-text text-center" >
+                Ela escuta atentamente seus clientes, compreende suas histórias 
+                e desejos, e então cria transformações capilares que não apenas refletem sua 
+                beleza exterior, mas também sua individualidade interior.
+                Com o tempo, Samanta esta se tornando uma referência na indústria da beleza e do visagismo.
+                
+              </p> <br>
+          </div>
+          <div class="carousel-item">
+            <p class="card-text text-center" >
+              Ela não apenas transforma cabelos, mas também ajuda as pessoas a se sentirem mais 
+              confiantes e autênticas em sua própria pele. 
+              Sua jornada desde a infância até se 
+              tornar uma renomada cabeleireira e visagista demonstra o poder de seguir paixões 
+              e transformá-las em uma carreira que não apenas traz sucesso, mas também realiza um 
+              propósito mais profundo.</p> <br>         
+            </div>
+          </div><br>
+          <div class="carousel-indicators d-flex justify-content-cente align-items-end">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"   aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"   aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"   aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"   aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"   aria-label="Slide 7"></button>
+          </div>
+        </div>
+        
+                
+     </div>
+    </div>
+  </div>
      
+  <!-- Depoimentos -->
+
+  <div class="d-flex justify-content-center border-dark align-items-center mt-5 mb-5" >
+    <div class="card d-flex align-items-center justify-content-center border border-5 shadow-lg rounded-5 border-black " style="background-color: silver; height: 550px; width: 550px;">
+      <div class="card-body ">
+        <h3 class="card-title fs-1"style="font-family: 'Playfair Display', serif;   " >Depoimentos</h3> <br>
+        <div class=" d-flex justify-content-center">
+          <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div><br>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Horario de funcionamento -->
     <div class="d-flex justify-content-center border-dark align-items-center mt-5 mb-5 " >
       <div class="card d-flex align-items-center justify-content-center border border-5 shadow-lg rounded-5 border-black " style="background-color: #7C3839; height: 550px">
         <div class="card-body ">
@@ -363,11 +516,18 @@
         </div>
       </div>
     </div>
-    
+
+    <!-- Trabelhe conosco -->
+  <div id="trabalheconosco">
+    <div class="card align-items-center border-0">
+      <img src="./img/trabalhe_conosco.jpg" style="width: 600px;" class="card-img" alt="...">
+    </div>
+  </div>  
     
     
     <!-- Contato -->
-     <div class="card text-center">
+    
+     <div class="card text-center m-5">
       <div class="card-header" id="entre-em-contato">
         <h1>Entre em Contato</h1>
       </div>
@@ -394,8 +554,9 @@
 
 
 </Main>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
 </body>
 </html>
