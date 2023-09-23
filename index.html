@@ -15,15 +15,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
    body {
   margin: 0 auto;
   padding: 0;
-  
+    
 }
 
 
 #header{
   background-color: #7C3839;
+  
 }
   </style>
 <body>
@@ -69,25 +72,25 @@
     </nav>
    </header> 
  <Main>
-     <div class="d-flex align-items-center justify-content-center p-5" id="header"> 
+     <div class="d-flex align-items-center justify-content-center p-5" style="opacity: 0.8;" id="header"> 
        <div class="flex-grow-3 ms-3">
         <h1 class="fs-3" style=" font-family: 'Nanum Gothic'; text-align: center;color:aliceblue;">Bem Vindo</h1>
-        <h1 class="" style=" font-size: 4rem ;font-family: 'Nanum Gothic'; font-style: italic; color:#FFCE00;text-align: center;">Samanta Costa Hairstylist</h1>
-        <h5 class="fs-2" style="font-family: 'Nanum Gothic';color:aliceblue;text-align: center;">Seu Visual em boas mãos</h5>
+        <h1 class="" style=" font-size: 12rem ;font-family: 'Fuggles', cursive; font-style: italic; color:#ffffff;text-align: center;">Samanta Costa </h1>
+        <h5 class="fs-2" style="font-family: 'Nanum Gothic';color:aliceblue;text-align: center;">A beleza <strong>não</strong> mora nos padrões</h5>
       </div>
     </div>
 <div>
-  <img src="./img/" alt="">
+  <img src="" alt="">
 </div>
 
 <div class="card align-items-center justify-content-center overflow-x-hidden p-1  border border-0" id="servicos" >
-  <div class=" card d-flex justify-content-cente align-items-center rounded-4 shadow-lg p-3 mb-5 bg-body-tertiary" style="background-image: url(./img/patterns/padrao\ logo-04.jpg);" >
+  <div class="card d-flex justify-content-cente align-items-center rounded-4 shadow-lg p-3 mb-5 " style="background-color: #7C3839;" >
     <div class="card-body">
-      <div class="text-center p-2 fst-italic fw-bold text-decoration-underline "><h1>Nossos Serviços</h1>
+      <div class="text-center p-1 fst-italic fw-bold text-decoration-underline" style="color: #ffffff;"><h1>Nossos Serviços</h1>
         </div>
         <div>
       <!-- Botao Cortes  -->
-      <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3"  data-bs-toggle="modal" data-bs-target="#cortes">
+      <button type="button" class="btn btn-secondary m-2 p-4 rounded-4 fs-3"  data-bs-toggle="modal" data-bs-target="#cortes" style="background-color: #BF8977;">
         Cortes
       </button>
 
@@ -145,15 +148,15 @@
       
 
       <!-- Botao Hidratacao -->
-      <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#hidrata">
-        Hidratação
+      <button type="button" class="btn btn-secondary m-2 p-4 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#hidrata" style="background-color: #BF8977;">
+        Tratamentos
       </button>
 
       <div class="modal fade" id="hidrata" tabindex="-1" aria-labelledby="examplehidrata" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="examplehidrata">Hidratação</h1>
+              <h1 class="modal-title fs-5" id="examplehidrata">Tratamentos</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -204,7 +207,7 @@
       
 
       <!-- Botao Penteados -->
-      <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#pente">
+      <button type="button" class="btn btn-secondary m-2 p-4 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#pente" style="background-color: #BF8977;">
         Penteados
       </button>
 
@@ -263,15 +266,15 @@
       
 
       <!-- Botao Tintura -->
-      <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#tinta">
-        Tintura
+      <button type="button" class="btn btn-secondary m-2 p-4 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#tinta" style="background-color: #BF8977;">
+        Coloração
       </button>
 
       <div class="modal fade" id="tinta" tabindex="-1" aria-labelledby="exampletinta" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampletinta">Tintura</h1>
+              <h1 class="modal-title fs-5" id="exampletinta">Coloração</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -322,15 +325,15 @@
       
 
       <!-- Botao Morena Iluminada -->
-        <button type="button" class="btn btn-secondary m-2 p-5 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#morenas">
-          Morena Iluminada
+        <button type="button" class="btn btn-secondary m-2 p-4 rounded-4 fs-3" data-bs-toggle="modal" data-bs-target="#morenas" style="background-color: #BF8977;">
+          Descoloração
         </button>
 
         <div class="modal fade" id="morenas" tabindex="-1" aria-labelledby="examplemorena" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="examplemorena">Morena Iluminada</h1>
+              <h1 class="modal-title fs-5" id="examplemorena">Descoloração</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
